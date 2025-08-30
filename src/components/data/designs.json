@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Pizza Mania - Social Media Post",
+    "imageSrc": "assets/designs/pizza-mania.jpg",
+    "description": "Creative promotional post designed for Pizza Mania campaign."
+  },
+  {
+    "id": 2,
+    "title": "Mobile Store - Logo Design",
+    "imageSrc": "assets/designs/mobile-logo.jpg",
+    "description": "Minimal and modern logo design created for a mobile accessories shop."
+  },
+  {
+    "id": 3,
+    "title": "Mobile Store - Social Media Post",
+    "imageSrc": "assets/designs/mobile-post.jpg",
+    "description": "Promotional post designed for Mobile Store branding and marketing."
+  },
+  {
+    "id": 4,
+    "title": "Al-Haram Perfume - Social Media Post 1",
+    "imageSrc": "assets/designs/sensation.jpg",
+    "description": "Elegant Instagram post designed for Al-Haram Perfume product launch."
+  },
+  {
+    "id": 5,
+    "title": "Al-Haram Perfume - Social Media Post 2",
+    "imageSrc": "assets/designs/Riwayat.jpg",
+    "description": "Modern and minimal social media post highlighting the luxury perfume branding."
+  },
+  {
+    "id": 6,
+    "title": "Al-Haram Perfume - Social Media Post 3",
+    "imageSrc": "assets/designs/mawaddat.jpg",
+    "description": "Creative promotional design tailored for Instagram marketing campaign."
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "key": 1,
+    "title": "Aquarise Interflow",
+    "imageSrc": "assets/projects/aquarise.png",
+    "descriptionShort": "Multi-vendor water delivery platform with authentication, product management.",
+    "sections": [
+      {
+        "heading": " Overview",
+        "type": "paragraph",
+        "content": "Aquarise Interflow is my Final Year Project (FYP), a web platform where multiple vendors can sell drinking water. Customers can explore vendor stores, compare ratings, and place orders."
+      },
+      {
+        "heading": " Features",
+        "type": "list",
+        "content": [
+          "Multi-vendor authentication and profile management",
+          "Vendors can add, edit, and delete products",
+          "Order management system with billing",
+          "Ratings and reviews for vendors",
+          "Responsive UI with React.js"
+        ]
+      },
+      {
+       "heading": " Tech Stack",
+        "type": "list",
+        "content": [
+          "Frontend: React.js, Redux, Chakra UI",
+          "Backend: Node.js, Express",
+          "Database: MongoDB",
+          "Authentication: JWT",
+          "Hosting: Vercel + Render"
+        ]
+      }
+    ],
+    "demo": "https://aquarise-interflow-8hbc.vercel.app/login",
+    "source": "https://github.com/aishamahmood415/Aquarise-Interflow"
+  },
+  {
+     "key": 2,
+    "title": "Weather Forecast App",
+    "imageSrc": "assets/projects/weather.png",
+    "descriptionShort": "Weather forecast app using OpenWeatherMap API with real-time city search.",
+    "sections": [
+      {
+        "heading": " Overview",
+        "type": "paragraph",
+        "content": "A React-based weather application where users can search by city and see current temperature, humidity, and conditions using OpenWeatherMap API."
+      },
+      {
+        "heading": "Features",
+        "type": "list",
+        "content": [
+          "Search weather by city",
+          "API integration with OpenWeatherMap",
+          "Responsive and clean UI",
+          "Dynamic background updates based on weather"
+        ]
+      },
+      {
+         "heading": " Tech Stack",
+        "type": "list",
+        "content": [
+          "Frontend: React.js, Tailwind CSS",
+          "API: OpenWeatherMap"
+        ]
+      }
+    ],
+    "demo": "https://unique-weather-app.vercel.app/",
+    "source": "https://github.com/aishamahmood415/Weather-app"
+  },
+  {
+     "key": 3,
+    "title": "Mock Website for Client",
+    "imageSrc": "assets/projects/mock.png",
+    "descriptionShort": "Responsive website section designed as a client mock-up with smooth UI and layout.",
+    "sections": [
+      {
+        "heading": "Overview",
+        "type": "paragraph",
+        "content": "Created a responsive website layout for a mock client to practice UI/UX design principles. The website features service sections, navigation, and responsive grid layouts."
+      },
+      {
+        "heading": "Tech Stack",
+        "type": "list",
+        "content": [
+          "Frontend: React.js, CSS3",
+          "Deployment: Vercel"
+        ]
+      }
+    ],
+    "demo": "https://mock-site-eight.vercel.app/",
+    "source": "https://github.com/aishamahmood415/Mock-site"
+  },
+  {
+   "key": 4,
+    "title": "Todo App",
+    "imageSrc": "assets/projects/todo.jpg",
+    "descriptionShort": "Minimal and responsive task manager built with React and LocalStorage.",
+    "sections": [
+      {
+        "heading": "Overview",
+        "type": "paragraph",
+        "content": "A simple Todo App built using React.js. It allows users to add, delete, and mark tasks as completed while storing data in local storage."
+      },
+      {
+        "heading": "Tech Stack",
+        "type": "list",
+        "content": [
+          "Frontend: React.js",
+          "Storage: LocalStorage"
+        ]
+      }
+    ],
+    "demo": "https://to-do-updated-app.vercel.app/",
+    "source": "https://github.com/aishamahmood415/ToDo-updated"
+  },
+{
+"key": 5,
+    "title": "Memory Card Game",
+    "imageSrc": "assets/projects/memory.jpg",
+    "descriptionShort": "A simple memory game using HTML, CSS, and JavaScript to practice DOM manipulation.",
+    "sections": [
+      {
+        "heading": "Overview",
+        "type": "paragraph",
+        "content": "A fun memory matching game that helped me practice core JavaScript concepts like DOM manipulation, event handling, and basic game logic."
+      },
+      {
+        "heading": " Tech Stack",
+        "type": "list",
+        "content": [
+          "Frontend: HTML, CSS, JavaScript"
+        ]
+      }
+    ],
+    "demo": "https://memory-card-game-pink-three.vercel.app/",
+    "source": "https://github.com/aishamahmood415/Memory-card-game"
+  },
+  {
+  "key": 6,
+  "title": "Authentication Flow (React)",
+  "imageSrc": "assets/projects/auth-flow.png",
+  "descriptionShort": "A complete authentication system with login, signup, OTP-based password reset, and routes.",
+  "sections": [
+    {
+      "heading": " Overview",
+      "type": "paragraph",
+      "content": "This project demonstrates a full authentication flow built with React, covering login, signup, password recovery, and secure redirection. It provides a seamless user experience with email-based OTP verification for resetting passwords."
+    },
+    {
+      "heading": " Features",
+      "type": "list",
+      "content": [
+        "User Login and Signup with form validation",
+        "Forgot Password with email-based OTP verification",
+        "Reset Password with OTP + new password",
+        "Welcome screen with protected redirection",
+        "Responsive UI and error handling"
+      ]
+    },
+    {
+      "heading": " Tech Stack",
+      "type": "list",
+      "content": [
+        "Frontend: React.js",
+        "Backend: Node.js, Express (for auth APIs)",
+        "Database: MongoDB",
+        "Authentication: JWT + OTP email verification",
+        "Hosting: Vercel"
+      ]
+    }
+  ],
+  "demo": "https://auth-api-integration-part-2-updated.vercel.app/login",
+  "source": "https://github.com/aishamahmood415/Auth_API_Integration-Part-2"
+}
+]
