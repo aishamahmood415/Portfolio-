@@ -1,14 +1,92 @@
 [
   {
     "key": 1,
-    "title": "Aquarise Interflow",
-    "imageSrc": "assets/projects/aquarise.png",
-    "descriptionShort": "Multi-vendor water delivery platform with authentication, product management.",
+    "title": "Sancy Tech",
+    "imageSrc": "assets/projects/sancytech.png",
+    "descriptionShort": "Company website for a Karachi-based DevOps, QA, and web development firm — built front to back as a client project.",
     "sections": [
       {
         "heading": " Overview",
         "type": "paragraph",
-        "content": "Aquarise Interflow is my Final Year Project (FYP), a web platform where multiple vendors can sell drinking water. Customers can explore vendor stores, compare ratings, and place orders."
+        "content": "Sancy Tech is a DevOps, QA, and web development company based in Karachi. I built their company website as a full stack client project, covering the frontend pages and backend setup."
+      },
+      {
+        "heading": " Tech Stack",
+        "type": "list",
+        "content": [
+          "HTML, CSS, JavaScript"
+        ]
+      }
+    ],
+    "demo": "https://sancytech.com",
+    "source": ""
+  },
+  {
+    "key": 2,
+    "title": "TNG",
+    "imageSrc": "assets/projects/tng.png",
+    "descriptionShort": "Website for a remote operations support company serving small and mid-size businesses.",
+    "sections": [
+      {
+        "heading": " Overview",
+        "type": "paragraph",
+        "content": "TNG provides remote operations support for small and mid-size businesses. I built their website as a full stack client project."
+      },
+      {
+        "heading": " Tech Stack",
+        "type": "list",
+        "content": [
+          "Next.js"
+        ]
+      }
+    ],
+    "demo": "https://tngofficial.com",
+    "source": ""
+  },
+  {
+    "key": 3,
+    "title": "Tyre Shop E-Commerce",
+    "imageSrc": "assets/projects/tyreshop.png",
+    "descriptionShort": "Full stack e-commerce website for a tyre retail business — product listing, cart, checkout, and order management.",
+    "sections": [
+      {
+        "heading": " Overview",
+        "type": "paragraph",
+        "content": "A tyre retail business needed to sell online. I built the storefront front to back during my internship at Naxasware — product listing, product detail, cart, and checkout on the frontend, with REST APIs and MongoDB handling products and orders on the backend."
+      },
+      {
+        "heading": " Features",
+        "type": "list",
+        "content": [
+          "Product listing and product detail pages with dynamic routing",
+          "Cart and checkout flow",
+          "REST APIs for product, cart, and order management",
+          "Reusable UI components (ProductCard, Navbar, FilterSidebar)",
+          "Mobile-first responsive design"
+        ]
+      },
+      {
+        "heading": " Tech Stack",
+        "type": "list",
+        "content": [
+          "Frontend: Next.js, TypeScript, Tailwind CSS, shadcn/ui",
+          "Backend: Node.js, MongoDB"
+        ]
+      }
+    ],
+    "demo": "",
+    "source": "https://github.com/Naxasware/Tyre-Shop-E-commerce-Website"
+  },
+  {
+    "key": 4,
+    "title": "Aquarise Interflow",
+    "imageSrc": "assets/projects/aquarise.png",
+    "descriptionShort": "Multi-vendor water delivery platform with authentication, product management — frontend built by me.",
+    "sections": [
+      {
+        "heading": " Overview",
+        "type": "paragraph",
+        "content": "Aquarise Interflow is my Final Year Project (FYP), a web platform where multiple vendors can sell drinking water. Customers can explore vendor stores, compare ratings, and place orders. My part was the frontend."
       },
       {
         "heading": " Features",
@@ -27,17 +105,15 @@
         "content": [
           "Frontend: React.js, Redux, Chakra UI",
           "Backend: Node.js, Express",
-          "Database: MongoDB",
-          "Authentication: JWT",
-          "Hosting: Vercel + Render"
+          "Database: MongoDB"
         ]
       }
     ],
-    "demo": "https://aquarise-interflow-8hbc.vercel.app/login",
+    "demo": "",
     "source": "https://github.com/aishamahmood415/Aquarise-Interflow"
   },
   {
-     "key": 2,
+     "key": 5,
     "title": "Weather Forecast App",
     "imageSrc": "assets/projects/weather.png",
     "descriptionShort": "Weather forecast app using OpenWeatherMap API with real-time city search.",
@@ -70,74 +146,6 @@
     "source": "https://github.com/aishamahmood415/Weather-app"
   },
   {
-     "key": 3,
-    "title": "Mock Website for Client",
-    "imageSrc": "assets/projects/mock.png",
-    "descriptionShort": "Responsive website section designed as a client mock-up with smooth UI and layout.",
-    "sections": [
-      {
-        "heading": "Overview",
-        "type": "paragraph",
-        "content": "Created a responsive website layout for a mock client to practice UI/UX design principles. The website features service sections, navigation, and responsive grid layouts."
-      },
-      {
-        "heading": "Tech Stack",
-        "type": "list",
-        "content": [
-          "Frontend: React.js, CSS3",
-          "Deployment: Vercel"
-        ]
-      }
-    ],
-    "demo": "https://mock-site-eight.vercel.app/",
-    "source": "https://github.com/aishamahmood415/Mock-site"
-  },
-  {
-   "key": 4,
-    "title": "Todo App",
-    "imageSrc": "assets/projects/todo.jpg",
-    "descriptionShort": "Minimal and responsive task manager built with React and LocalStorage.",
-    "sections": [
-      {
-        "heading": "Overview",
-        "type": "paragraph",
-        "content": "A simple Todo App built using React.js. It allows users to add, delete, and mark tasks as completed while storing data in local storage."
-      },
-      {
-        "heading": "Tech Stack",
-        "type": "list",
-        "content": [
-          "Frontend: React.js",
-          "Storage: LocalStorage"
-        ]
-      }
-    ],
-    "demo": "https://to-do-updated-app.vercel.app/",
-    "source": "https://github.com/aishamahmood415/ToDo-updated"
-  },
-{
-"key": 5,
-    "title": "Memory Card Game",
-    "imageSrc": "assets/projects/memory.jpg",
-    "descriptionShort": "A simple memory game using HTML, CSS, and JavaScript to practice DOM manipulation.",
-    "sections": [
-      {
-        "heading": "Overview",
-        "type": "paragraph",
-        "content": "A fun memory matching game that helped me practice core JavaScript concepts like DOM manipulation, event handling, and basic game logic."
-      },
-      {
-        "heading": " Tech Stack",
-        "type": "list",
-        "content": [
-          "Frontend: HTML, CSS, JavaScript"
-        ]
-      }
-    ],
-    "demo": "https://memory-card-game-pink-three.vercel.app/",
-    "source": "https://github.com/aishamahmood415/Memory-card-game"
-  },
-  {
   "key": 6,
   "title": "Authentication Flow (React)",
   "imageSrc": "assets/projects/auth-flow.png",
@@ -166,12 +174,56 @@
         "Frontend: React.js",
         "Backend: Node.js, Express (for auth APIs)",
         "Database: MongoDB",
-        "Authentication: JWT + OTP email verification",
-        "Hosting: Vercel"
+        "Authentication: JWT + OTP email verification"
       ]
     }
   ],
-  "demo": "https://auth-api-integration-part-2-updated.vercel.app/login",
+  "demo": "https://authentification-screens.vercel.app/",
   "source": "https://github.com/aishamahmood415/Auth_API_Integration-Part-2"
-}
+},
+  {
+    "key": 7,
+    "title": "Mock Website for Client",
+    "imageSrc": "assets/projects/mock.png",
+    "descriptionShort": "Responsive website section designed as a client mock-up with smooth UI and layout.",
+    "sections": [
+      {
+        "heading": "Overview",
+        "type": "paragraph",
+        "content": "Created a responsive website layout for a mock client to practice UI/UX design principles. The website features service sections, navigation, and responsive grid layouts."
+      },
+      {
+        "heading": "Tech Stack",
+        "type": "list",
+        "content": [
+          "Frontend: React.js, CSS3"
+        ]
+      }
+    ],
+    "demo": "https://mock-site-eight.vercel.app/",
+    "source": "https://github.com/aishamahmood415/Mock-site"
+  },
+  {
+   "key": 8,
+    "title": "Todo App",
+    "imageSrc": "assets/projects/todo.png",
+    "descriptionShort": "Minimal and responsive task manager built with React and LocalStorage.",
+    "sections": [
+      {
+        "heading": "Overview",
+        "type": "paragraph",
+        "content": "A simple Todo App built using React.js. It allows users to add, delete, and mark tasks as completed while storing data in local storage."
+      },
+      {
+        "heading": "Tech Stack",
+        "type": "list",
+        "content": [
+          "Frontend: React.js",
+          "Storage: LocalStorage"
+        ]
+      }
+    ],
+    "demo": "https://to-do-updated-app.vercel.app/",
+    "source": "https://github.com/aishamahmood415/ToDo-updated"
+  }
 ]

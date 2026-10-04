@@ -61,14 +61,27 @@ const ProjectDetails = () => {
 
         {/* Buttons */}
         <div className="mt-6 flex flex-wrap gap-4">
-          <a
-            href={project.source}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
-          >
-            Source Code
-          </a>
+          {project.demo && (
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+            >
+              Live Demo
+            </a>
+          )}
+
+          {project.source && (
+            <a
+              href={project.source}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+            >
+              Source Code
+            </a>
+          )}
 
           <button
             onClick={() => navigate("/")}

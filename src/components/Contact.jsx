@@ -71,13 +71,13 @@ const Contact = () => {
           <span style={{ color: "yellow" }}>Aisha Mahmood</span>
         </h5>
         <p className="mb-3">
-          Frontend Developer | Creative Web & Graphic Designer
+          Full Stack Developer | React.js & Next.js Developer
         </p>
 
         {/* Social Icons */}
         <div className="d-flex justify-content-center gap-3 mb-3">
           <a
-            href="www.linkedin.com/in/aisha-mahmood-96ba9927b"
+            href="https://www.linkedin.com/in/aisha-mahmood-96ba9927b"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "white", fontSize: "1.8rem" }}
@@ -93,9 +93,7 @@ const Contact = () => {
             <FaGithubSquare />
           </a>
           <a
-            href="ayeshamahmood553@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:ayeshamahmood553@gmail.com"
             style={{ color: "white", fontSize: "1.8rem" }}
           >
             <SiGmail />

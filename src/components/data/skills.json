@@ -4,6 +4,14 @@
     "imageSrc": "skills/react.png"
   },
   {
+    "title": "Next.js",
+    "imageSrc": "skills/nextjs.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png"
+  },
+  {
     "title": "JavaScript",
     "imageSrc": "skills/javascript.png"
   },
@@ -23,7 +31,10 @@
     "title": "HTML5",
     "imageSrc": "skills/html.png"
   },
- 
+  {
+    "title": "CSS3",
+    "imageSrc": "skills/css.png"
+  },
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
@@ -31,22 +42,5 @@
   {
     "title": "Figma",
     "imageSrc": "skills/figma.png"
-  },
-  {
-    "title": "CSS3",
-    "imageSrc": "skills/css.png"
-  },
-  {
-    "title": "Canva",
-    "imageSrc": "skills/canva.png"
-  },
- {
-    "title": "Photoshop",
-    "imageSrc": "skills/photoshop.png"
-  },
-  {
-    "title": "Illustrator",
-    "imageSrc": "skills/illustrator.png"
   }
-
 ]
