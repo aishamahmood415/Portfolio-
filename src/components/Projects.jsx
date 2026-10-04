@@ -7,14 +7,14 @@ const Projects = () => {
     <>
       <div className="container projects my-3" id="projects">
         <h1 className="text-center">PROJECTS</h1>
-        <div className="row d-flex justify-content-center align-content-center">
+        <div className="row d-flex justify-content-center align-content-stretch">
           {project.map((data, index) => (
             <div
               key={data.id || index} // Use index as fallback if id is missing/duplicate
-              className="my-4 col-sm-6 col-md-4 col-lg-3 mx-4"
+              className="my-4 col-sm-6 col-md-4 col-lg-3 mx-4 d-flex"
             >
               <div
-                className="card bg-dark text-light"
+                className="card bg-dark text-light d-flex flex-column"
                 style={{
                   width: "18rem",
                   border: "1px solid yellow",
@@ -31,26 +31,19 @@ const Projects = () => {
                     style={{
                       width: "250px",
                       height: "200px",
+                      objectFit: "cover",
                       border: "2px solid yellow",
                       borderRadius: "10px",
                     }}
                   />
                 </div>
-                <div className="card-body text-center">
+                <div className="card-body text-center d-flex flex-column flex-grow-1">
                   <h5 className="card-title">{data.title}</h5>
-                  <p className="card-text">{data.descriptionShort}</p>
-                  {/* <a 
-                    href={data.demo} 
-                    className="btn btn-primary mx-3"
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                  >
-                    Demo
-                  </a> */}
+                  <p className="card-text flex-grow-1">{data.descriptionShort}</p>
                   <Link
                     to="/project-details"
                     state={{ project: data }}
-                    className="btn btn-warning"
+                    className="btn btn-warning mt-auto"
                   >
                     Explore
                   </Link>

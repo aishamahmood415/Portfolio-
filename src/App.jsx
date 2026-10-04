@@ -6,7 +6,6 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from './components/Contact'
 import ProjectDetails from "./components/ProjectDetails";
-import Designs from "./components/Designs";
 import Aos from "aos";
 import "aos/dist/aos.css"
 
@@ -22,7 +21,6 @@ const MainPage = () => {
         {/* <Experience /> */}
         <Skills />
         <Projects />
-        <Designs/>
         <Contact />
        
       </div>
